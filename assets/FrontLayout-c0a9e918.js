@@ -1,1 +1,0 @@
-import{r as c,o as a,c as s,a as _,b as l,F as u}from"./index-0a9c2482.js";const f=(t,o)=>{const e=t.__vccOpts||t;for(const[r,n]of o)e[r]=n;return e},m={};function p(t,o){const e=c("router-view");return a(),s(u,null,[_("sd "),l(e)],64)}const i=f(m,[["render",p]]);export{i as default};
