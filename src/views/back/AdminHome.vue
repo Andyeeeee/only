@@ -1,4 +1,4 @@
 <template>
-  AdminHome
+  AdminHome/owwwww
 </template>
 <script setup></script>
