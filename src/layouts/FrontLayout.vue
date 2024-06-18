@@ -1,14 +1,14 @@
 <template>
+  <v-main>
+
+    <router-view />
+  </v-main>
   <div id="fornt-layoutw">
 
 
     <section id="title-pic" class="text-center ">世界灣
     </section>
 
-    <v-main>
-
-      <router-view />
-    </v-main>
 
     <v-layout class="overflow-visible" style="height: 56px;">
       <v-bottom-navigation color="primary">
