@@ -25,13 +25,13 @@
 
         <span>設施</span>
       </v-btn>
-      <v-btn to="/admin">
+      <v-btn to="loginv">
         <v-icon>mdi-store-alert-outline</v-icon>
 
         <span>設施</span>
       </v-btn>
 
-      <v-btn to="login">
+      <v-btn to="../admin">
         <v-icon>mdi-account</v-icon>
 
         <span>登入</span>
