@@ -1,5 +1,6 @@
 <template>a
-
+  <section id="title-pic" class="text-center ">世界灣
+  </section>
   <v-main>
     <router-view />
   </v-main>
