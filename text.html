@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      background-color: rgb(194, 255, 102);
+    }
+
+    .container {
+      position: relative;
+      display: inline-block;
+      color: rgb(217, 255, 0);
+    }
+
+    .container::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(121, 121, 121, 0.193);
+      filter: brightness(80%);
+      z-index: -1;
+      /* 確保背景在文字底下 */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    Your text here
+  </div>
+
+</body>
+
+</html>

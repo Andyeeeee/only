@@ -10,27 +10,26 @@
   <v-layout class="overflow-visible" style="height: 56px;position: fixed; width: 100%;bottom: 0%;">
     <v-bottom-navigation v-model="value" color="primary" active>
       <v-btn to="/">
-        <v-icon>mdi-history</v-icon>
-
-        Recents
+        <v-icon>mdi-home</v-icon>
+        首頁
       </v-btn>
 
       <v-btn to="movie">
-        <v-icon>mdi-heart</v-icon>
+        <v-icon>mdi-movie</v-icon>
 
-        Favorites
+        電影
       </v-btn>
 
       <v-btn to="store">
-        <v-icon>mdi-map-marker</v-icon>
+        <v-icon>mdi-store-alert-outline</v-icon>
 
-        <span>Nearby</span>
+        <span>設施</span>
       </v-btn>
 
       <v-btn to="login">
-        <v-icon>mdi-map-marker</v-icon>
+        <v-icon>mdi-account</v-icon>
 
-        <span>Nearby</span>
+        <span>登入</span>
       </v-btn>
     </v-bottom-navigation>
   </v-layout>

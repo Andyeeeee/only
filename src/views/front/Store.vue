@@ -6,13 +6,9 @@
 
     <v-row style="padding: 0 10%;">
       <v-col class="v-col-12 v-col-sm-6" v-for="item in items" :key="item.to">
-        <div class="text-box" :title="item.title" :text="item.text"
-          :style="{ 'background-image': `url(${item.image})` }" style="background-size: cover;
-      background-position: center;  filter: brightness(80%);  z-index: -1;">
-          <div style="z-index: 0">
-
-            {{ item.title }}
-          </div>
+        <div class="pic-box" :title="item.title" :text="item.text" :style="{ 'background-image': `url(${item.image})` }"
+          style="">
+          <div class="text-box w-100 h-100 d-flex"> {{ item.title }} </div>
         </div>
       </v-col>
     </v-row>
