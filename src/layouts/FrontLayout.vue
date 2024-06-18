@@ -1,8 +1,8 @@
 <template>
 
-  <section class="layout-title-pic text-center ">世界灣
+  <section class="layout-title-pic text-center ">the-word
   </section>
-  <v-main>
+  <v-main style="margin-bottom: 56px;">
     <router-view />
   </v-main>
 
