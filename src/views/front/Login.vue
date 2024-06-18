@@ -1,4 +1,6 @@
 <template>
+
+  Login
   <!-- <div id="login" class="text-center">
 
     <div class="paper">
