@@ -4,7 +4,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 const routes = [
   {
     path: '/',
-    component: () => import('@/layouts/default/View.vue'),
+    component: () => import('@/layouts/FrontLayout.vue'),
     children: [
       {
         path: '',
