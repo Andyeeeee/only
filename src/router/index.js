@@ -41,7 +41,7 @@ const routes = [
       },
     ],
   },
-  {
+  // {
   //   path: '/admin',
   //   component: () => import('@/layouts/AdminLayout.vue'),
   //   children: [
