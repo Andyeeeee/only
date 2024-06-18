@@ -32,13 +32,20 @@ const routes = [
         }
       },
       {
+        path: 'loginv',
+        name: 'Loginv',
+        component: () => import(/* webpackChunkName: "loginv" */ '@/views/front/Loginv.vue'),
+        meta: {
+          title: '點換'
+        }
+      },
+      {
         path: 'login',
         name: 'Login',
         component: () => import(/* webpackChunkName: "login" */ '@/views/front/Login.vue'),
         meta: {
           title: '登入'
         },
-
       },
     ],
   },
