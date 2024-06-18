@@ -1,5 +1,7 @@
 <template>asdsss
-  <router-view />asd
+  <v-app>
+    <router-view />asd
+  </v-app>
 </template>
 
 <script setup>
