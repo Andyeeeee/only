@@ -1,7 +1,7 @@
 <template>
 
   Login
-  <div id="login" class="text-center">
+  <!-- <div id="login" class="text-center">
 
     <div class="paper">
 
@@ -14,7 +14,7 @@
         <input type="submit" value="Submit" style="padding: 0 20px">
       </form>
     </div>
-  </div>
+  </div>-->
 </template>
 <script setup>
 
