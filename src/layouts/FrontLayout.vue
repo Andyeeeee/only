@@ -25,6 +25,11 @@
 
         <span>設施</span>
       </v-btn>
+      <v-btn to="login">
+        <v-icon>mdi-store-alert-outline</v-icon>
+
+        <span>設施</span>
+      </v-btn>
 
       <v-btn to="login">
         <v-icon>mdi-account</v-icon>

@@ -1,5 +1,5 @@
 <template>
-  <div id="login" class="text-center">
+  <!-- <div id="login" class="text-center">
 
     <div class="paper">
 
@@ -13,7 +13,7 @@
       </form>
     </div>
   </div>
-</template>
-<script setup>
+</template> -->
+  <script setup>
 
 </script>
