@@ -1,3 +1,5 @@
 <template>sd
-  <router-view />
+  <v-main>
+    <router-view />
+  </v-main>
 </template>
