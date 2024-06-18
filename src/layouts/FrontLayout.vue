@@ -7,37 +7,37 @@
   </v-main>
 
 
-  <v-layout class="overflow-visible" style="height: 56px;position: fixed; width: 100%;bottom: 0%;">
-    <v-bottom-navigation v-model="value" color="primary" active>
-      <v-btn to="/">
-        <v-icon>mdi-home</v-icon>
-        首頁
-      </v-btn>
+  <div style="height: 56px;position: fixed; width: 100%;bottom: 0%;">
 
-      <v-btn to="movie">
-        <v-icon>mdi-movie</v-icon>
+    <v-btn to="/">
+      <v-icon>mdi-home</v-icon>
+      首頁
+    </v-btn>
 
-        電影
-      </v-btn>
+    <v-btn to="movie">
+      <v-icon>mdi-movie</v-icon>
 
-      <v-btn to="store">
-        <v-icon>mdi-store-alert-outline</v-icon>
+      電影
+    </v-btn>
 
-        <span>設施</span>
-      </v-btn>
-      <v-btn to="loginv">
-        <v-icon>mdi-store-alert-outline</v-icon>
+    <v-btn to="store">
+      <v-icon>mdi-store-alert-outline</v-icon>
 
-        <span>設施</span>
-      </v-btn>
+      <span>設施</span>
+    </v-btn>
+    <v-btn to="loginv">
+      <v-icon>mdi-store-alert-outline</v-icon>
 
-      <v-btn to="../admin">
-        <v-icon>mdi-account</v-icon>
+      <span>設施</span>
+    </v-btn>
 
-        <span>登入</span>
-      </v-btn>
-    </v-bottom-navigation>
-  </v-layout>
+    <v-btn to="../admin">
+      <v-icon>mdi-account</v-icon>
+
+      <span>登入</span>
+    </v-btn>
+
+  </div>
 
 </template>
 
