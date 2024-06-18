@@ -30,6 +30,13 @@ const routes = [
         meta: {
           title: '點數兌換'
         }
+      }, {
+        path: 'login',
+        name: 'Login',
+        component: () => import(/* webpackChunkName: "login" */ '@/views/front/Login.vue'),
+        meta: {
+          title: '登入'
+        }
       },
     ],
   },
