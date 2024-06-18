@@ -53,14 +53,14 @@ const routes = [
           title: '住戶管理'
         }
       },
-      //     {
-      //       path: 'adminproducts',
-      //       name: 'AdminProducts',
-      //       component: () => import(/* webpackChunkName: "admin-products" */ '@/views/back/adminproducts.vue'),
-      //       meta: {
-      //         title: '商品管理'
-      //       }
-      //     },
+      {
+        path: 'adminproducts',
+        name: 'AdminProducts',
+        component: () => import(/* webpackChunkName: "admin-products" */ '@/views/back/adminproducts.vue'),
+        meta: {
+          title: '商品管理'
+        }
+      },
     ],
   }
 ]

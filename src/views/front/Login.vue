@@ -4,7 +4,7 @@
     <div class="paper">
 
       <h1>Login</h1>
-      <form action="/submit" method="POST">
+      <form>
         <label for="account">Account:</label><br>
         <input type="text" id="account" name="account"><br>
         <label for="password">Password:</label><br>
