@@ -5,34 +5,52 @@
   <v-main>
     <router-view />
   </v-main>
-  <v-layout class="overflow-visible" style="height: 56px;">
-    <v-bottom-navigation color="primary">
+
+
+  <v-layout class="overflow-visible" style="height: 56px;position: fixed; width: 100%;bottom: 0%;">
+    <v-bottom-navigation v-model="value" color="primary" active>
       <v-btn to="/">
         <v-icon>mdi-history</v-icon>
 
-        首頁
+        Recents
       </v-btn>
 
       <v-btn to="movie">
         <v-icon>mdi-heart</v-icon>
 
-        電影時刻
+        Favorites
       </v-btn>
 
-      <v-btn to="Store">
+      <v-btn to="store">
         <v-icon>mdi-map-marker</v-icon>
 
-        <span>點數兌換</span>
+        <span>Nearby</span>
       </v-btn>
+
       <v-btn to="login">
         <v-icon>mdi-map-marker</v-icon>
 
-        <span>會員登入</span>
+        <span>Nearby</span>
       </v-btn>
     </v-bottom-navigation>
   </v-layout>
+
 </template>
 
 <script setup>
 //
 </script>
+
+<style>
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+</style>

@@ -1,6 +1,6 @@
-<template>asdsss
+<template>
   <v-app>
-    <router-view />asd
+    <router-view />
   </v-app>
 </template>
 
