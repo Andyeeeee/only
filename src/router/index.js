@@ -36,10 +36,33 @@ const routes = [
         component: () => import(/* webpackChunkName: "login" */ '@/views/front/Login.vue'),
         meta: {
           title: '登入'
-        }
+        },
+
       },
     ],
   },
+  {
+    path: '/admin',
+    component: () => import('@/layouts/AdminLayout.vue'),
+    children: [
+      {
+        path: '',
+        name: 'AdminHome',
+        component: () => import(/* webpackChunkName: "admin-home" */ '@/views/back/AdminHome.vue'),
+        meta: {
+          title: '住戶管理'
+        }
+      },
+      {
+        path: 'adminproducts',
+        name: 'AdminProducts',
+        component: () => import(/* webpackChunkName: "admin-products" */ '@/views/back/adminproducts.vue'),
+        meta: {
+          title: '商品管理'
+        }
+      },
+    ],
+  }
 ]
 
 const router = createRouter({
