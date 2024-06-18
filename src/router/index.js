@@ -9,7 +9,8 @@ const routes = [
       {
         path: '',
         name: 'Home',
-        component: () => import(/* webpackChunkName: "home" */ '@/views/front/HomeView.vue'),
+        // component: () => import(/* webpackChunkName: "home" */ '@/views/front/HomeView.vue'),
+        component: () => import(/* webpackChunkName: "home" */ '@/views/Home.vue'),
         meta: {
           title: '首頁'
         }
