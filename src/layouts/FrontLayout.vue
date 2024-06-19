@@ -25,6 +25,11 @@
 
         <span>設施</span>
       </v-btn>
+      <v-btn to="storee">
+        <v-icon>mdi-store-alert-outline e</v-icon>
+
+        <span>設施</span>
+      </v-btn>
       <v-btn to="loingv">
         <v-icon>mdi-store-alert-outline</v-icon>
 

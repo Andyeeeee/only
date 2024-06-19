@@ -32,6 +32,14 @@ const routes = [
         }
       },
       {
+        path: 'storee',
+        name: 'Storee',
+        component: () => import(/* webpackChunkName: "storee" */ '@/views/front/Storee.vue'),
+        meta: {
+          title: '點數兌換e'
+        }
+      },
+      {
         path: 'loginv',
         name: 'Loginv',
         component: () => import(/* webpackChunkName: "loginv" */ '@/views/front/Loginv.vue'),
