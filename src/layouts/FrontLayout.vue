@@ -9,10 +9,6 @@
 
   <v-layout class="overflow-visible" style="height: 56px;position: fixed; width: 100%;bottom: 0%;">
     <v-bottom-navigation v-model="value" color="primary" active>
-      <v-btn to="/">
-        <v-icon>mdi-home</v-icon>
-        首頁
-      </v-btn>
 
       <v-btn to="movie">
         <v-icon>mdi-movie</v-icon>
@@ -40,6 +36,10 @@
         <v-icon>mdi-account</v-icon>
 
         <span>登入</span>
+      </v-btn>
+      <v-btn to="/">
+        <v-icon>mdi-home</v-icon>
+        首頁
       </v-btn>
     </v-bottom-navigation>
   </v-layout>
