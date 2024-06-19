@@ -42,9 +42,18 @@ const routes = [
 
     ],
   },
-  {
-
-  },
+  // {
+  //   path: '/admin',
+  //   component: () => import('@/layouts/AdminLayout.vue'),
+  //   children: [
+  //     {
+  //       path: '',
+  //       name: 'AdminHome',
+  //       component: () => import(/* webpackChunkName: "admin-home" */ '@/views/back/AdminHome.vue'),
+  //       meta: {
+  //         title: '住戶管理'
+  //       }
+  //     },
   //     {
   //       path: 'adminproducts',
   //       name: 'AdminProducts',
@@ -53,17 +62,14 @@ const routes = [
   //         title: '商品管理'
   //       }
   //     },
-
+  //   ],
+  // }
 ]
 
 
 const router = createRouter({
   history: createWebHashHistory(process.env.BASE_URL),
   routes,
-})
-
-router.afterEach((to, from) => {
-  document.title = to.meta.title
 })
 
 export default router
