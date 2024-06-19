@@ -1,4 +1,5 @@
-<template>456
+<template>
+  adminLayout
   <v-main style="margin-bottom: 56px;">
     <router-view />
   </v-main>

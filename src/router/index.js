@@ -47,7 +47,7 @@ const routes = [
     component: () => import('@/layouts/AdminLayout.vue'),
     children: [
       {
-        path: '',
+        path: 'adminHome',
         name: 'AdminHome',
         component: () => import(/* webpackChunkName: "admin-home" */ '@/views/back/AdminHome.vue'),
         meta: {
@@ -70,6 +70,10 @@ const routes = [
 const router = createRouter({
   history: createWebHashHistory(process.env.BASE_URL),
   routes,
+})
+
+router.afterEach((to, from) => {
+  document.title = to.meta.title
 })
 
 export default router
