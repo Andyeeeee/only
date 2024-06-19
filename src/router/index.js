@@ -49,20 +49,20 @@ const routes = [
       {
         path: '',
         name: 'AdminHome',
-        component: () => import(/* webpackChunkName: "admin-home" */ '@/views/back/AdminHome.vue'),
+        component: () => import(/* webpackChunkName: "admin-home" */ '@/views/admin/HomeView.vue'),
         meta: {
-          title: '住戶管理'
+          title: '購物網 | 管理'
         }
       },
       {
-        path: 'adminproducts',
+        path: 'products',
         name: 'AdminProducts',
-        component: () => import(/* webpackChunkName: "admin-products" */ '@/views/back/adminproducts.vue'),
+        component: () => import(/* webpackChunkName: "admin-products" */ '@/views/admin/ProductsView.vue'),
         meta: {
-          title: '商品管理'
+          title: '購物網 | 商品管理'
         }
-      },
-    ],
+      }
+    ]
   }
 ]
 
