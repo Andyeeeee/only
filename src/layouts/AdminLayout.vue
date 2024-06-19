@@ -1,8 +1,6 @@
 <template>
   adminLayout
-  <v-main style="margin-bottom: 56px;">
-    <router-view />
-  </v-main>
+  <router-view style="margin-bottom: 56px;"></router-view>
 
 </template>
 <script setup></script>
