@@ -43,29 +43,25 @@ const routes = [
     ],
   },
   {
-    path: '/admin',
-    component: () => import('@/layouts/AdminLayout.vue'),
-    children: [
-      {
-        path: 'adminHome',
-        name: 'AdminHome',
-        component: () => import(/* webpackChunkName: "admin-home" */ '@/views/back/AdminHome.vue'),
-        meta: {
-          title: '住戶管理',
-          login: true,
-          admin: true
-        }
-      },
-      //     {
-      //       path: 'adminproducts',
-      //       name: 'AdminProducts',
-      //       component: () => import(/* webpackChunkName: "admin-products" */ '@/views/back/adminproducts.vue'),
-      //       meta: {
-      //         title: '商品管理'
-      //       }
-      //     },
-    ],
+    path: 'products',
+    name: 'AdminProducts',
+    component: () => import(/* webpackChunkName: "admin-products" */ '@/views/admin/ProductsView.vue'),
+    meta: {
+      title: '購物網 | 商品管理',
+      login: true,
+      admin: true
+    }
   },
+  {
+    path: 'orders',
+    name: 'AdminOrders',
+    component: () => import(/* webpackChunkName: "admin-orders" */ '@/views/admin/OrdersView.vue'),
+    meta: {
+      title: '購物網 | 訂單管理',
+      login: true,
+      admin: true
+    }
+  }
 ]
 
 
