@@ -5,11 +5,6 @@
   <v-main style="margin-bottom: 56px;">
     <router-view />
   </v-main>
-  <v-btn to="login">
-    <v-icon>mdi-account</v-icon>
-
-    <span>登入</span>
-  </v-btn>
 
   <v-layout class="overflow-visible" style="height: 56px;position: fixed; width: 100%;bottom: 0%;">
     <v-bottom-navigation v-model="value" color="primary" active>
