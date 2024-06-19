@@ -52,7 +52,7 @@ const routes = [
         component: () => import(/* webpackChunkName: "admin-home" */ '@/views/back/AdminHome.vue'),
         meta: {
           title: '住戶管理',
-          login: 'true',
+          login: true,
           admin: true
         }
       },
