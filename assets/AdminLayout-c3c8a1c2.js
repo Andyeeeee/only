@@ -1,0 +1,1 @@
+import{_ as o}from"./_plugin-vue_export-helper-c27b6911.js";import{a6 as t,a7 as a,a8 as r,ab as n,j as c,F as s}from"./index-58697415.js";const m={};function _(i,l){const e=t("router-view");return a(),r(s,null,[n(" adminLayout "),c(e,{style:{"margin-bottom":"56px"}})],64)}const d=o(m,[["render",_]]);export{d as default};
