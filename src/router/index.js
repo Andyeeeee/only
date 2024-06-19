@@ -31,14 +31,14 @@ const routes = [
           title: '電影時刻'
         }
       },
-      // {
-      //   path: 'store',
-      //   name: 'Store',
-      //   component: () => import(/* webpackChunkName: "store" */ '@/views/front/Store.vue'),
-      //   meta: {
-      //     title: '點數兌換'
-      //   }
-      // },
+      {
+        path: 'store',
+        name: 'Store',
+        component: () => import(/* webpackChunkName: "store" */ '@/views/front/Store.vue'),
+        meta: {
+          title: '點數兌換'
+        }
+      },
       // {
       //   path: 'storee',
       //   name: 'Storee',
