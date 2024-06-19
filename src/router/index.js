@@ -6,23 +6,23 @@ const routes = [
     path: '/',
     component: () => import('@/layouts/FrontLayout.vue'),
     children: [
-      {
-        path: '',
-        name: 'Home',
-        component: () => import(/* webpackChunkName: "home" */ '@/views/front/HomeView.vue'),
-        meta: {
-          title: '首頁'
-        }
+      // {
+      //   path: '',
+      //   name: 'Home',
+      //   component: () => import(/* webpackChunkName: "home" */ '@/views/front/HomeView.vue'),
+      //   meta: {
+      //     title: '首頁'
+      //   }
 
-      },
-      {
-        path: 'movie',
-        name: 'Movie',
-        component: () => import(/* webpackChunkName: "movie" */ '@/views/front/Movie.vue'),
-        meta: {
-          title: '電影時刻'
-        }
-      },
+      // },
+      // {
+      //   path: 'movie',
+      //   name: 'Movie',
+      //   component: () => import(/* webpackChunkName: "movie" */ '@/views/front/Movie.vue'),
+      //   meta: {
+      //     title: '電影時刻'
+      //   }
+      // },
       {
         path: 'store',
         name: 'Store',
@@ -80,6 +80,7 @@ const routes = [
     ],
   }
 ]
+
 
 const router = createRouter({
   history: createWebHashHistory(process.env.BASE_URL),
