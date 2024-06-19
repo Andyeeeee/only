@@ -49,7 +49,7 @@ const routes = [
       {
         path: '',
         name: 'AdminHome',
-        component: () => import(/* webpackChunkName: "admin-home" */ '@/views/back/AdminHome.vue'),
+        component: () => import(/* webpackChunkName: "admin-home" */ '@/views/admin/AdminHome.vue'),
         meta: {
           title: '住戶管理'
         }
@@ -57,7 +57,7 @@ const routes = [
       {
         path: 'adminproducts',
         name: 'AdminProducts',
-        component: () => import(/* webpackChunkName: "admin-products" */ '@/views/back/adminproducts.vue'),
+        component: () => import(/* webpackChunkName: "admin-products" */ '@/views/admin/adminproducts.vue'),
         meta: {
           title: '商品管理'
         }
