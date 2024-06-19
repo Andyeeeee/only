@@ -10,7 +10,7 @@
     <v-bottom-navigation v-model="value" color="primary" active>
       <v-btn to="/">
         <v-icon>mdi-home</v-icon>
-        首頁
+        首頁asd
       </v-btn>
 
       <v-btn to="movie">
